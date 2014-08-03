@@ -18,7 +18,10 @@ public class TelaLogin extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					//Instancia um objeto da classe TelaLogin.
 					TelaLogin frame = new TelaLogin();
+					
+					//Exibe o objeto Frame para o usuário.
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
